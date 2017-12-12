@@ -9,8 +9,9 @@
 }
 
 body{
+	font-family: 'Mairyo', 'ヒラギノ角ゴ ProN W3',sans-serif;
 	background: url(img/background.jpg)no-repeat;
-	background-size: cover;
+	background-size:cover;
 }
 
 #out{
@@ -37,34 +38,38 @@ section{
 }
 
 .area01{
-	margin-top: 20px;
+	margin-top: 48px;
 	margin-left: 10px;
 	float: left;
 	border-radius: 0.2em;
+	overflow: hidden;
 }
 
 .area01 .number{
 	border-radius: 0.2em;
-	border: solid 1px #3d3d3d;
 	width: 140px;
-	height: 60px;
+	height: 50px;
 	font-size: 32px;
 	padding-left: 20px;
+	display: block;
+	float: left;
 }
 
 .area01 .send{
-	margin-top: 2px;
 	border-radius: 0.2em;
 	font-size: 18px;
 	width: 70px;
-	height: 70px;
+	height: 50px;
 	background: #FFF;
+	float: left;
+	display: block;
+	margin-left: 10px;
 }
 
 .area02{
 	float: left;
 	margin-left: 10px;
-	
+
 }
 .button{
 	width: 500px;
