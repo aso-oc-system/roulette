@@ -1,11 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 #view {
+	margin-top: 370px;
   font-size : 18em;
 }
 
-#start {
-  width: 200px;
+body{
+	background: url(img/background.jpg)no-repeat;
+	background-size: cover;
 }
 
-#stop {
-  width: 200px;
+#out{
+	color: #FFF;
+    font-size: 36px;
+	width: 760px;
+    margin: 100px auto 0 auto;
+}
+
+input{
+	border: none;
+}
+
+.title{
+	margin: 0 auto;
+	width: 561px;
+	margin-top: 20px;
+}
+
+section{
+	position: absolute;
+	bottom: 10px;
+	overflow: hidden;
+}
+
+.area01{
+	margin-top: 20px;
+	margin-left: 10px;
+	float: left;
+	border-radius: 0.2em;
+}
+
+.area01 .number{
+	border-radius: 0.2em;
+	width: 140px;
+	height: 60px;
+	font-size: 32px;
+	padding-left: 20px;
+}
+
+.area01 .send{
+	margin-top: 2px;
+	border-radius: 0.2em;
+	font-size: 18px;
+	width: 70px;
+	height: 70px;
+	background: #FFF;
+}
+
+.area02{
+	float: left;
+	margin-left: 10px;
+	
+}
+.button{
+	width: 500px;
+	height: 100px;
+	background: #FFF;
+	font-size: 36px;
+	margin: 0 auto;
+	border-radius: 0.2em;
 }
