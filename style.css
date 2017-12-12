@@ -45,6 +45,7 @@ section{
 
 .area01 .number{
 	border-radius: 0.2em;
+	border: solid 1px #3d3d3d;
 	width: 140px;
 	height: 60px;
 	font-size: 32px;
@@ -72,4 +73,23 @@ section{
 	font-size: 36px;
 	margin: 0 auto;
 	border-radius: 0.2em;
+}
+
+input[type="submit"],
+input[type="button"] {
+	-webkit-box-sizing: content-box;
+	-webkit-appearance: button;
+	appearance: button;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+input[type="submit"]::-webkit-search-decoration,
+input[type="button"]::-webkit-search-decoration {
+	display: none;
+}
+
+input[type="submit"]::focus,
+input[type="button"]::focus {
+	outline-offset: -2px;
 }
